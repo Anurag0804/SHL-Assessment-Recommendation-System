@@ -1,0 +1,23 @@
+# Ignore Python virtual environments
+venv/
+.env
+*.env
+
+# Ignore system files
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore compiled files
+*.so
+*.pyd
+
+# Ignore model data or large files
+*.h5
+*.pt
+*.pkl
+db/
