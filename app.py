@@ -100,3 +100,15 @@ if st.button("Search"):
 
             except Exception as e:
                 st.error(f"🚨 Something went wrong: {e}")
+
+# Footer section
+st.markdown(
+    """
+    <hr style="margin-top: 40px; border: 1px solid #444;">
+    <div style="text-align: center; color: #888;">
+        🚀 <a href="https://github.com/Anurag0804/SHL-Assessment-Recommendation-System" target="_blank" style="color: #1a73e8;">View Project on GitHub</a><br><br>
+        ❤️ Made with love by <a href="https://github.com/Anurag0804" target="_blank" style="color: #1a73e8;">Anurag Ray Chaudhuri</a>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
